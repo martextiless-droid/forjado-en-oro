@@ -14,6 +14,7 @@ export interface Testimonial {
 }
 
 export interface GiftSuggestionResponse {
-  suggestion: string;
-  reasoning: string;
+  imageUrl: string;
+  title: string;
+  description: string;
 }
